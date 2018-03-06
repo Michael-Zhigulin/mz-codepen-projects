@@ -83,7 +83,7 @@
   margin-top: -130px;
 }
 .separator .one {
-  background: url("/assets/images/separator-one.jpg") center center / cover no-repeat;
+  background: url("./assets/images/separator-one.jpg") center center / cover no-repeat;
   position: relative;
   top: 50%;
   left: 50%;
@@ -112,7 +112,7 @@
   text-decoration: none;
 }
 .separator .two {
-  background: url("/assets/images/separator-two.jpg") center center / cover no-repeat;
+  background: url("./assets/images/separator-two.jpg") center center / cover no-repeat;
   position: relative;
   top: 50%;
   left: 50%;
