@@ -154,7 +154,7 @@ body {
   height: 100vh;
 }
 .fullscreen-bg-image {
-  background: url("/assets/images/image-bg.jpg") center center / cover no-repeat;
+  background: url("../images/image-bg.jpg") center center / cover no-repeat;
   position: absolute;
   top: 50%;
   left: 50%;
