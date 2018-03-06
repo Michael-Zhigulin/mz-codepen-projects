@@ -8,7 +8,7 @@
 
   <meta charset="utf-8">
 
-  <title>FixMe - Главная страница</title>
+  <title>FixMe - Услуги и цены</title>
   <meta name="description" content="Компания FixMe предоставляет качественные услуги по ремонту компьютеров и ноутбуков, настройки роутеров и прокладки сетевого кабеля в Новосибирске. Диагностика, настройка и ремонт производятся на дому.">
 
   <!-- Grid Styles and Normalize.css -->
@@ -30,10 +30,9 @@
 
   <meta property="og:title" content="FixMe - Профессиональная компьютерная помощь">
   <meta property="og:site_name" content="FixMe">
-  <meta property="og:url" content="http://fixmepls.ru/">
+  <meta property="og:url" content="http://fixmepls.ru/services.html">
   <meta property="og:description" content="Компания FixMe предоставляет качественные услуги по ремонту компьютеров и ноутбуков, настройки роутеров и прокладки сетевого кабеля в Новосибирске. Диагностика, настройка и ремонт производятся на дому.">
   <meta property="og:type" content="website">
-
 
   <!-- Load CSS Compilled without JS -->
   <noscript>
@@ -78,7 +77,7 @@
 
 </head>
 
-<body id="body">
+<body>
 
   <div class="m-menu-closed"></div>
   <div class="m-menu">
@@ -88,8 +87,8 @@
     </div>
     <nav class="m-menu-nav">
       <ul>
-        <li class="active-t-1"><a href="/">Главная</a></li>
-        <li><a href="services.html">Услуги и цены</a></li>
+        <li><a href="/">Главная</a></li>
+        <li  class="active-t-2"><a href="services.html">Услуги и цены</a></li>
         <li><a href="warranty.html">Гарантии</a></li>
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
@@ -129,20 +128,7 @@
     </div>
   </div>
 
-  <div class="popup-closed"></div>
-  <div class="popup-container">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="services-popup col-md-6 col-md-push-3">
-          <div class="popup-title"></div>
-          <p class="popup-description"></p>
-          <div class="popup-price"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <header class="fullscreen-container container-fluid">
+  <header class="fullscreen-container-page container-fluid">
     <div class="row">
       <div class="fixed-top col-xs-12">
         <div class="container">
@@ -153,7 +139,7 @@
             <div class="col-xs-7 hidden-lg hidden-md hidden-sm">
               <div class="m-menu-btn"><i class="fa fa-bars"></i></div>
             </div>
-            <div class="p top-cont col-xs-4">
+            <div class="p col-xs-4">
               <div class="info">
                 <div class="p col-xs-6 hidden-xs">
                   <div class="p-number"><i class="fa fa-phone"></i>8 913 793 75 11</div>
@@ -163,7 +149,7 @@
                 </div>
               </div>
             </div>
-            <div class="p application-btn col-xs-3 hidden-xs">
+            <div class="p application-btn row col-xs-3 hidden-xs">
               <a href="#form" class="button application">Оставить заявку</a>
             </div>
           </div>
@@ -172,154 +158,243 @@
     </div>
     <nav class="top-nav container hidden-xs">
       <ul class="row">
-        <li class="active-t-1"><a href="/">Главная</a></li>
-        <li><a href="services.html">Услуги и цены</a></li>
+        <li><a href="/">Главная</a></li>
+        <li class="active-t-2"><a href="services.html">Услуги и цены</a></li>
         <li><a href="warranty.html">Гарантии</a></li>
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
     </nav>
-    <div class="fullscreen-bg">
+    <div class="fullscreen-bg-page">
       <div class="fullscreen-bg-image">
         <div class="gradient-top"></div>
-        <video loop muted autoplay class="fullscreen-bg-video hidden-sm hidden-xs">
-          <source src="assets/video/video-bg.mp4" type="video/mp4">
-          <source src="assets/video/video-bg.webm" type="video/webm">
-          <source src="assets/video/video-bg.ogv" type="video/ogg">
-        </video>
-        <div class="filter-bg hidden-sm hidden-xs"></div>
         <div class="gradient-bottom"></div>
       </div>
     </div>
     <div class="container">
-      <div class="header-promo row-fluid">
-        <div class="promo-container col-md-9 col-md-push-1">
-          <div class="logo"><span>Fix</span><span>Me</span></div>
-          <p class="slogan">Профессиональная компьютерная помощь</p>
-          <p id="Ticker" class="terminal hidden-xs">Неисправен компьютер?</p>
-          <p class="promo hidden-xs">Наши инженеры решат любую проблему!</p>
-          <a href="contacts.html" class="button call">Связаться с нами</a>
-        </div>
+      <div class="page-title row-fluid">
+        <div class="title">Предоставляемые услуги</div>
       </div>
     </div>
   </header>
-  
-  
-  <div class="main-page-container">
-    <div class="services container">
-      <div class="row">
-        <div class="col-md-6 col-md-push-1">
-          <div class="title"><a href="services.html">Наши услуги</a></div>
-          <p class="description">Мы предлагаем доступные цены и качественный ремонт вашего компьютера или ноутбука в Новосибирске. Наши цены одни из самый низких в городе. В нашей компании работают высоко квалифицированные специалисты способные выполнить ремонт любой сложности. Ремонт компьютера или ремонт ноутбука осуществляется на дому и вы всегда можете следить за работой специалиста. Наш специалист проведёт диагностику и в случае, если проблема будет технически сложная, мы будем вынуждены произвести ремонт в сервис центре. Даже в этом случае ремонт будет произведён в кратчайшие сроки.</p>
+  <div class="container">
+    <div class="row">
+      <div class="page-container col-md-12">
+        <div class="services-page col-md-6 col-md-push-1">
+          <p class="description">Компания "FixMe" предоставляет качественные услуги по ремонту компьютеров и ноутбуков в Новосибирске. Диагностика, настройка и ремонт производятся с выездом. Так же мы занимаемся настройкой роутеров и прокладкой сетевого кабеля.</p>
+          <div class="title">Прайс-лист</div>
+          <div class="info">Цены на ремонт ноутбуков, компьютеров, компьютерные услуги.<br> Ценовое предложение не является публичной офертой.</div>
+          <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+            <thead>
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody class="filter-1">
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Выезд мастера и диагностика (при последующем обслуживании)</td>
+                <td>бесплатно</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Доставка оборудования из магазина</td>
+                <td>200</td>
+              </tr>
+            </tbody>
+            <thead class="hidden-md hidden-lg">
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Переустановка OS Windows</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="filter-2">
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Установка OS Windows XP / 7 + комплект драйверов</td>
+                <td>800</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">    + установка комплекта домашних программ для OS Windows</td>
+                <td>500</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">    + установка антивирусной программы</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">    + установка офисного пакета для OS Windows	</td>
+                <td>500</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Установка OS Windows + драйвера + программы + офис + антивирус</td>
+                <td>1500</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Установка OS Windows 8 / Windows 10 + драйвера</td>
+                <td>800</td>
+              </tr>
+            </tbody>
+            <thead class="hidden-md hidden-lg">
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Восстановление и настройка OS Windows</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="filter-3">
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Восстановление поврежденной OS Windows XP / 7, без переустановки</td>
+                <td>от 700</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Тонкая настройка, оптимизация, ускорение работы OS Windows</td>
+                <td>от 300</td>
+              </tr>
+            </tbody>
+            <thead class="hidden-md hidden-lg">
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Установка программ и драйверов</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="filter-4">
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Установка комплекта домашних программ (более 20 программ) на чистую систему</td>
+                <td>от 800</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Установка 1 программы или драйвера</td>
+                <td>от 100</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Установка комплекта драйверов на 1 компьютер</td>
+                <td>500</td>
+              </tr>
+            </tbody>
+            <thead class="hidden-md hidden-lg">
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Удаление вирусов, антивирусная защита</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="filter-5">
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Удаление смс баннеров, вымогателей, блокировщиков</td>
+                <td>от 500</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Установка антивирусной программы + защиты от всплывающих окон</td>
+                <td>700</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Лечение компьютера от вирусов</td>
+                <td>700</td>
+              </tr>
+            </tbody>
+            <thead class="hidden-md hidden-lg">
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Настройка Интернета</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="filter-6">
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Подключение и настройка роутера, модема, Wi-Fi</td>
+                <td>от 500</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Решение проблем с доступом в Интернет</td>
+                <td>от 500</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Настройка локальной сети между 2-мя ПК</td>
+                <td>300</td>
+              </tr>
+            </tbody>
+            <thead class="hidden-md hidden-lg">
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Настройка Интернета</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="filter-7">
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Правильная чистка ноутбука от пыли (с заменой термопасты)</td>
+                <td>от 800</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Профилактическая чистка стационарного ПК с заменой термопасты</td>
+                <td>700</td>
+              </tr>
+            </tbody>
+            <thead class="hidden-md hidden-lg">
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Работа с оборудованием</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="filter-8">
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Замена компьютерных запчастей, комплектующих на дому клиента и их настройка</td>
+                <td>от 300</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Ремонт /замена материнской платы системного блока компьютера</td>
+                <td>от 700</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Подключение периферийного оборудования (принтера и т.д.)</td>
+                <td>от 200</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Замена сломанной матрицы (экрана) ноутбука (работа + матрица 15.6")</td>
+                <td>от 3700</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Замена клавиатуры ноутбука на дому</td>
+                <td>от 1700</td>
+              </tr>
+            </tbody>
+            <thead class="hidden-md hidden-lg">
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Работа с данными</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="filter-9">
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Сохранение файлов и личной информации</td>
+                <td>30 / 1Гб</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Восстановление удаленной или испорченной информации</td>
+                <td>от 700</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="info">Точную стоимость услуги можно определить только после предварительной диагностики.<br> При выполнении более одной услуги мы предоставляем скидки от 10 %.<br> Устанавливаем только лицензионное програмное обеспечение, или программы свободного распространения.</div>
           <div class="btn-container">
-            <a href="services.html" class="button services-price">Услуги и цены</a>
+            <a href="assets/files/FixMe_Price.xlsx" class="button services-price">Скачать прайс лист</a>
           </div>
         </div>
-        <div class="popular-services-container col-md-4 col-md-push-1">
-          <div class="popular-services">Популярные услуги</div>
-          <div id="repair" class="category">Ремонт компьютеров и ноутбуков</div>
-          <ul class="list repair">
-            <li class="list-1">Ремонт компьютера, замена комплектующих</li>
-            <li class="list-2">Чистка компьютера / ноутбука от пыли</li>
-            <li class="list-3">Ремонт экрана, матрицы ноутбука</li>
-            <li class="list-4">Ремонт ноутбука после залития</li>
-            <li class="list-5">Ремонт ноутбука, перепайка чипов</li>
-          </ul>
-          <div id="windows" class="category">Windows</div>
-          <ul class="list windows">
-            <li class="list-6">Установка Windows "под ключ"</li>
-            <li class="list-7">Ршение проблем с Windows</li>
-          </ul>
-          <div id="optimization" class="category">Удаление вирусов и оптимизация</div>
-          <ul class="list optimization">
-            <li class="list-8">Удаление компьютерных вирусов</li>
-            <li class="list-9">Установка драйверов для Windows</li>
-          </ul>
-          <div id="internet" class="category">Настройка интернет соединения</div>
-          <ul class="list internet">
-            <li class="list-10">Настройка Интернета, роутера, WiFi</li>
-            <li class="list-11">Настройка локальной сети</li>
-          </ul>
-          <div class="full-services">
-            <a href="services.html" class="button">Полный список услуг</a>
+        <div class="services-page-filter col-md-4 col-md-push-2 hidden-sm hidden-xs">
+          <div class="row">
+            <div class="filter">Фильтр по категориям</div>
+            <div id="filter-1" class="category">Выезд, диагностика, доставка</div>
+            <div id="filter-2" class="category">Переустановка OS Windows</div>
+            <div id="filter-3" class="category">Восстановление и настройка OS Windows</div>
+            <div id="filter-4" class="category">Установка программ и драйверов</div>
+            <div id="filter-5" class="category">Удаление вирусов, антивирусная защита</div>
+            <div id="filter-6" class="category">Настройка Интернета</div>
+            <div id="filter-7" class="category">Чистка от пыли, помощь при перегреве</div>
+            <div id="filter-8" class="category">Работа с оборудованием</div>
+            <div id="filter-9" class="category">Работа с данными</div>
+            <div class="filter-btn-container">
+              <a id="filter-reset" href="#no-filter" class="button">Отменить фильтр</a>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="separator row">
-        <div class="one">
-          <div class="gradient-top"></div>
-          <div class="gradient-bottom"></div>
-          <div class="title col-md-3 col-md-push-2"><a href="#">Мы гарантируем</a></div>
-        </div>
-      </div>
-    </div>
-    <div class="warranty container">
-      <div class="row">
-        <div class="top-container col-sm-3 col-sm-push-2">
-          <div class="icon"><i class="fa fa-mortar-board"></i></div>
-          <div class="title">Профессианализм</div>
-          <div class="description hidden-lg hidden-md">Опыт работы в Новосибирске 6 лет</div>
-          <div class="description hidden-sm hidden-xs">Качественный ремонт<br> Опыт работы в Новосибирске 6 лет</div>
-        </div>
-        <div class="top-container col-sm-3 col-sm-push-4">
-          <div class="icon"><i class="fa fa-rub"></i></div>
-          <div class="title">Выгодная цена</div>
-          <div class="description">Одни из самых низких цен<br> по Новосибирску</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="content col-md-6 col-md-push-3">Мы гарантируем быстрый и качественный ремонт компьютера или ноутбука, а так же установку и настройку проверенного временем програмного обеспечения.</div>
-      </div>
-      <div class="row-fluid">
-        <div class="all-warranty">
-          <a href="warranty.html" class="button">Все о гарантиях</a>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="separator row">
-        <div class="two">
-          <div class="gradient-top"></div>
-          <div class="gradient-bottom"></div>
-          <div class="title col-md-12"><a href="#">Районы обслуживания</a></div>
-          <div class="description col-md-12 hidden-xs">Оказываем компьютерную помощь в следующих районах г. Новосибирска:</div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="areas-of-service row">
-        <div class="areas col-sm-4 col-sm-push-2">
-          <ul>
-            <li>Центральный район</li>
-            <li>Железнодорожный район</li>
-            <li>Дзержинский район</li>
-            <li>Калининский район</li>
-            <li>Заельцовский район</li>
-            <li>Кировский район</li>
-            <li>Ленинский район</li>
-            <li>Советский район</li>
-            <li>бесплатный выезд мастера</li>
-          </ul>
-        </div>
-        <div class="areas col-sm-4 col-sm-push-2">
-          <ul>
-            <li>г. Бердск и Обь</li>
-            <li>Кольцово</li>
-            <li>Барышево</li>
-            <li>Пашино</li>
-            <li>Нижняя Ельцовка</li>
-            <li>ОбьГЭС</li>
-            <li>Первомайский район</li>
-            <li>Академгородок</li>
-            <li>выезд мастера 200р</li>
-          </ul>
-        </div>
+        </div>     
       </div>
     </div>
   </div>
-  <div class="footer-gradient row-fluid">
-  </div>
+  <div class="footer-gradient row-fluid"></div>
   <div class="footer container-fluid">
     <footer class="container">
       <div class="footer-container row">
@@ -331,8 +406,8 @@
         <div class="col-xs-8 hidden-sm hidden-xs">
           <nav class="bottom-nav">
             <ul>
-              <li class="active-b-1"><a href="/">Главная</a></li>
-              <li><a href="services.html">Услуги и цены</a></li>
+              <li><a href="/">Главная</a></li>
+              <li class="active-b-2"><a href="services.html">Услуги и цены</a></li>
               <li><a href="warranty.html">Гарантии</a></li>
               <li><a href="contacts.html">Контакты</a></li>
             </ul>
@@ -357,8 +432,8 @@
       var ms=document.createElement("link");ms.rel="stylesheet";
       ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
     }
-    loadCSS("https://fonts.googleapis.com/css?family=Roboto:400,300,100");
-    loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700");
+    loadCSS("https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css");
+    loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700' rel='stylesheet' type='text/css");
     loadCSS("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
     loadCSS("assets/libs/material/material.css");
     loadCSS("assets/styles/_main.css");
@@ -372,7 +447,8 @@
   {"src" : "assets/js/main.js", "async" : false}
 ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
   </script>
-  <script src="assets/libs/material/material.js" async></script>
+  <script src="assets/libs/material/material.js"></script>
+  <script src="assets/libs/material/material.js"></script>
 
 </body>
 </html>

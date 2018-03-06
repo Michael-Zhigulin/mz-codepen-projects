@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Berlin";
+  src: url("/assets/fonts/BerlinRegular/berlin.eot");
+  src: url("/assets/fonts/BerlinRegular/berlin.eot?#iefix") format("embedded-opentype"),
+    url("/assets/fonts/BerlinRegular/berlin.woff") format("woff"),
+    url("/assets/fonts/BerlinRegular/berlin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
