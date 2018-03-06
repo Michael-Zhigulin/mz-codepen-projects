@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru" class="no-js"> <!--<![endif]-->
 
 <head>
 
@@ -35,7 +31,6 @@
   <meta property="og:type" content="website">
 
   <!-- Load CSS Compilled without JS -->
-  <noscript>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -43,37 +38,6 @@
     <link rel="stylesheet" href="assets/libs/material/material.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="assets/styles/media.css">
-  </noscript>
-
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function (d, w, c) {
-      (w[c] = w[c] || []).push(function() {
-        try {
-          w.yaCounter36923445 = new Ya.Metrika({
-            id:36923445,
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-          });
-        } catch(e) { }
-      });
-
-      var n = d.getElementsByTagName("script")[0],
-          s = d.createElement("script"),
-          f = function () { n.parentNode.insertBefore(s, n); };
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-      if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-      } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/36923445" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
 
 </head>
 
@@ -291,34 +255,8 @@
 
   <div class="hidden"></div>
 
-  <!--[if lt IE 9]>
-<script src="assets/libs/html5shiv/es5-shim.min.js"></script>
-<script src="assets/libs/html5shiv/html5shiv.min.js"></script>
-<script src="assets/libs/html5shiv/html5shiv-printshiv.min.js"></script>
-<script src="assets/libs/respond/respond.min.js"></script>
-<![endif]-->
-
-  <!-- Load CSS -->
-  <script>
-    function loadCSS(hf) {
-      var ms=document.createElement("link");ms.rel="stylesheet";
-      ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
-    }
-    loadCSS("https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css");
-    loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700' rel='stylesheet' type='text/css");
-    loadCSS("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
-    loadCSS("assets/libs/material/material.css");
-    loadCSS("assets/styles/main.css");
-    loadCSS("assets/styles/media.css");
-  </script>
-
-  <!-- Load Scripts -->
-  <script>var scr = {"scripts":[
-  {"src" : "assets/libs/modernizr/modernizr.js", "async" : false},
-  {"src" : "assets/libs/jquery/jquery-1.11.2.min.js", "async" : false},
-  {"src" : "assets/js/main.js", "async" : false}
-]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
-  </script>
+  <script src="assets/libs/jquery/jquery-1.11.2.min.js"></script>
+  <script src="assets/js/main.js"></script>
   <script src="assets/libs/material/material.js"></script>
 
 </body>
