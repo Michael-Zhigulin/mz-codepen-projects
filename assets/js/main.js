@@ -1,4 +1,4 @@
-$(function() {
+
 
   $("form").submit(function() { //Change
     var th = $(this);
@@ -15,10 +15,6 @@ $(function() {
     });
     return false;
   });
-
-  $("img, a").on("dragstart", function(event) { event.preventDefault(); });
-
-});
 
 
 
