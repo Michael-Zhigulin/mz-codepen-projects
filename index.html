@@ -5,70 +5,8 @@
     <title>mz-codepen-projects</title>
   </head>
   <body>
+  
     
-    <p>Для начала работы кликните в любое место экрана</p>
-
-    <h2>Стоп при отведении курсора</h2>
-
-    <video id="video2" width="1000" height="500" loop>
-      <source src="/mz-codepen-projects/Waterstop_watermark.mp4" type="video/mp4">
-      <source src="/mz-codepen-projects/Waterstop_watermark.webm" type="video/webm">
-      <source src="/mz-codepen-projects/Waterstop_watermark.ogv" type="video/ogg">
-    </video>
-
-    <h2>Пауза при отведении курсора</h2>
-
-    <video id="video1" width="1000" height="500" loop>
-      <source src="/mz-codepen-projects/Waterstop_watermark.mp4" type="video/mp4">
-      <source src="/mz-codepen-projects/Waterstop_watermark.webm" type="video/webm">
-      <source src="/mz-codepen-projects/Waterstop_watermark.ogv" type="video/ogg">
-    </video>
-    
-    <h2>Замедление на 55%</h2>
-
-    <video id="video3" width="1000" height="500" loop>
-      <source src="/mz-codepen-projects/Waterstop_slow_down_watermark.mp4" type="video/mp4">
-      <source src="/mz-codepen-projects/Waterstop_slow_down_watermark.webm" type="video/webm">
-      <source src="/mz-codepen-projects/Waterstop_slow_down_watermark.ogv" type="video/ogg">
-    </video>
-
-    <script>
-      
-      var videoOne, videoTwo, videoThree;
-      
-      videoOne = document.getElementById("video1"); 
-      videoTwo = document.getElementById("video2");
-      videoThree = document.getElementById("video3"); 
-
-      videoOne.currentTime = 0;
-      videoTwo.currentTime = 0;
-      videoThree.currentTime = 0;
-
-      videoOne.onmouseover = function(){
-        videoOne.play(); 
-      };
-
-      videoOne.onmouseout = function(){
-        videoOne.pause(); 
-      };
-
-      videoTwo.onmouseover = function(){
-        videoTwo.play(); 
-      };
-
-      videoTwo.onmouseout = function(){
-        videoTwo.pause();
-        videoTwo.currentTime = 0;
-      };
-      
-      videoThree.onmouseover = function(){
-        videoThree.play(); 
-      };
-
-      videoThree.onmouseout = function(){
-        videoThree.pause();
-      };
-    </script>
-
+  
   </body>
 </html>
